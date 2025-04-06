@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx", // or "react" if you're using React 17
+    "esModuleInterop": true, // to fix 'React default import' issue
+    "module": "esnext",
+    "moduleResolution": "node",
+    "baseUrl": "./src",
+    "paths": {
+      "@/*": ["./*"]
+    }
+  }
+}
